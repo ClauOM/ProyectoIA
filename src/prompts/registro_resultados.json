@@ -1,0 +1,14 @@
+{
+    "evaluar_signos_vitales": {
+    "exitos": 3,
+    "intentos": 3
+    },
+    "clasificar_lpp": {
+    "exitos": 3,
+    "intentos": 3
+    },
+    "plan_curacion_heridas": {
+    "exitos": 3,
+    "intentos": 3
+    }
+}
