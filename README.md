@@ -13,7 +13,7 @@ Estos pasos se completan de forma progresiva a lo largo de la Unidad U1.2, no to
     - <python -m venv venv>
     
     - En Windows (PowerShell / CMD):
-    venv\Scripts\activate
+    .\venv\Scripts\Activate.ps1
     - En Linux / macOS:
     source venv/bin/activate
 
@@ -23,7 +23,9 @@ Estos pasos se completan de forma progresiva a lo largo de la Unidad U1.2, no to
     - pip install fastapi uvicorn google-genai   python-dotenv
     - pip freeze > requirements.txt
 
-4. Copia `.env.example` a un archivo nuevo llamado `.env`, y completa ahí tus credenciales reales (llaves de API, tokens). 
+4. Copia `.env.example` a un archivo nuevo llamado `.env`, usando el comando <Copy-Item .env.example .env>. 
+
+5. Para ejecutar la aplicación, usa el comando <python src/consumir_gemini.py>.
 
 ## Estructura de carpetas
 
@@ -39,3 +41,10 @@ Estos pasos se completan de forma progresiva a lo largo de la Unidad U1.2, no to
 - Ningún secreto (contraseña, llave de API, token) va escrito directamente en el código ni en ningún archivo que se suba al repositorio.
 - Cada proyecto nuevo tiene su propio entorno virtual: no se comparten dependencias entre proyectos distintos.
 - Todo el trabajo que se entrega en este programa vive en un repositorio de GitHub, sin excepción.
+
+## Registro del ensayo de instalación limpia
+ 
+- Fecha: 25/10/2026
+- Encontrado: el archivo requirements.txt venia con las dependencias instaladas
+- Corregido: Se intento crear nuevamente con 'pip freeze > requirements.txt'.
+- Resultado tras la corrección: el proyecto corre sin intervención manual. 
