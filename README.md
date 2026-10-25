@@ -45,6 +45,6 @@ Estos pasos se completan de forma progresiva a lo largo de la Unidad U1.2, no to
 ## Registro del ensayo de instalación limpia
  
 - Fecha: 25/10/2026
-- Encontrado: el archivo requirements.txt venia con las dependencias instaladas
+- Encontrado: el archivo requirements.txt venia con las dependencias instaladas.
 - Corregido: Se intento crear nuevamente con 'pip freeze > requirements.txt'.
 - Resultado tras la corrección: el proyecto corre sin intervención manual. 
