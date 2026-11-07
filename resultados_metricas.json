@@ -1,0 +1,23 @@
+[
+  {
+    "consulta": "¿Cuál es el manejo inicial ante una herida quirúrgica con signos de infección?",
+    "respuesta": "Consiste en evaluar la herida, tomar cultivos, realizar curación o drenaje e iniciar antibióticos.",
+    "precision": 0.21428571428571427,
+    "cobertura": 0.07894736842105263,
+    "f1": 0.11538461538461539
+  },
+  {
+    "consulta": "¿Cuál es el protocolo de valoración para la presión arterial sistólica elevada?",
+    "respuesta": "Es el procedimiento clínico para confirmar la lectura elevada y evaluar el riesgo cardiovascular.",
+    "precision": 0.35714285714285715,
+    "cobertura": 0.16666666666666666,
+    "f1": 0.22727272727272724
+  },
+  {
+    "consulta": "¿Cómo se registra una LPP en estadio 3 en la región sacra?",
+    "respuesta": "Se registra en la historia clínica indicando localización sacra, estadio 3 y sus dimensiones.",
+    "precision": 0.5,
+    "cobertura": 0.1891891891891892,
+    "f1": 0.2745098039215686
+  }
+]
